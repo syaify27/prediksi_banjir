@@ -20,6 +20,7 @@ for name in model_names:
 
 # Membuat antarmuka Streamlit
 st.title("Flood Prediction App URBAN ANALITIK KEL 5 SIKC 2024")
+st.write("https://github.com/syaify27/prediksi_banjir/")
 
 st.header("Input Features")
 # Membuat input fields untuk setiap fitur
