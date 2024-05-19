@@ -19,7 +19,7 @@ for name in model_names:
     loaded_models[name] = joblib.load(model_path)
 
 # Membuat antarmuka Streamlit
-st.title("Flood Prediction App URBAN ANALITIK KEL 5 SIKC 2024")
+st.title("Flood Prediction App")
 st.title("URBAN ANALITIK KEL 5 SIKC 2024")
 st.write("https://github.com/syaify27/prediksi_banjir/")
 
