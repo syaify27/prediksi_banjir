@@ -5,7 +5,7 @@ import joblib
 import os
 import catboost
 # Definisikan path ke folder model yang disimpan
-output_dir = "/content/drive/MyDrive/kuliah/urban analitik/tugas besar kelompok/HASIL"
+#output_dir = "/content/drive/MyDrive/kuliah/urban analitik/tugas besar kelompok/HASIL"
 
 # Nama model yang tersedia
 model_names = ['RandomForest', 'GradientBoosting', 'AdaBoost', 'DecisionTree', 'XGBoost', 'SVR', 'KNeighbors', 'Linear', 'CatBoost']
@@ -60,6 +60,6 @@ if st.button("Predict"):
     st.write(predictions_df)
 
     # Menyimpan prediksi ke dalam file CSV
-    predictions_output_path = os.path.join(output_dir, 'predictions_streamlit.csv')
-    predictions_df.to_csv(predictions_output_path, index=False)
-    st.write(f'Predictions have been saved to {predictions_output_path}')
+   # predictions_output_path = os.path.join(output_dir, 'predictions_streamlit.csv')
+   # predictions_df.to_csv(predictions_output_path, index=False)
+   # st.write(f'Predictions have been saved to {predictions_output_path}')
