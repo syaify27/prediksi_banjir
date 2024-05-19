@@ -15,7 +15,7 @@ loaded_models = {}
 
 # Memuat model yang telah disimpan
 for name in model_names:
-    model_path = os.path.join(output_dir, f'{name}_model.pkl')
+    model_path = os.path.join(f'{name}_model.pkl')
     loaded_models[name] = joblib.load(model_path)
 
 # Membuat antarmuka Streamlit
