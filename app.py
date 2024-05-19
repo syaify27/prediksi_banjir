@@ -23,13 +23,13 @@ st.title("Flood Prediction App URBAN ANALITIK")
 
 st.header("Input Features")
 # Membuat input fields untuk setiap fitur
-CH = st.number_input("CH", value=0.0)
-HH = st.number_input("HH", value=0.0)
-KA = st.number_input("KA", value=0.0)
-KU = st.number_input("KU", value=0.0)
-PM = st.number_input("PM", value=0.0)
-TU = st.number_input("TU", value=0.0)
-TEMP = st.number_input("TEMP", value=0.0)
+CH = st.number_input("CURAH HUJAN", value=0.0)
+HH = st.number_input("HARI HUJAN", value=0.0)
+KA = st.number_input("KECEPATAN ANGIN", value=0.0)
+KU = st.number_input("KELEMBABAN UDARA", value=0.0)
+PM = st.number_input("PENYINARAN MATAHARI", value=0.0)
+TU = st.number_input("TEKANN UDARA", value=0.0)
+TEMP = st.number_input("TEMPERATUR", value=0.0)
 
 # Menyimpan input ke dalam DataFrame
 input_data = pd.DataFrame({
