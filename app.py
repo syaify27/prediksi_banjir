@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-
+import catboost
 # Definisikan path ke folder model yang disimpan
 output_dir = "/content/drive/MyDrive/kuliah/urban analitik/tugas besar kelompok/HASIL"
 
