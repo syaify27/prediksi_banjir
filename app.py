@@ -19,7 +19,7 @@ for name in model_names:
     loaded_models[name] = joblib.load(model_path)
 
 # Membuat antarmuka Streamlit
-st.title("Flood Prediction App")
+st.title("Flood Prediction App URBAN ANALITIK")
 
 st.header("Input Features")
 # Membuat input fields untuk setiap fitur
