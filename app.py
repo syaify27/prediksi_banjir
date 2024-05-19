@@ -15,8 +15,11 @@ loaded_models = {}
 
 # Memuat model yang telah disimpan
 for name in model_names:
-    model_path = os.path.join(f'{name}_model.pkl')
-    loaded_models[name] = joblib.load(model_path)
+    if name == 'Linear':#tidak menampilkan hasil dari Linear karna sangat berbeda dengan yang lain
+        pass
+    else:
+        model_path = os.path.join(f'{name}_model.pkl')
+        loaded_models[name] = joblib.load(model_path)
 
 # Membuat antarmuka Streamlit
 st.title("Flood Prediction App")
