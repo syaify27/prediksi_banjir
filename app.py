@@ -57,7 +57,7 @@ if st.button("Predict"):
         predictions[name] = model.predict(input_data)[0]
     
     # Menampilkan hasil prediksi
-    st.write("Predictions:")
+    st.write("Prediksi Kejadian Banjir Kota Bandung per Bulan")
     predictions_df = pd.DataFrame(list(predictions.items()), columns=['Model', 'Prediction'])
     st.write(predictions_df)
 
